@@ -1,0 +1,28 @@
+{
+  "name": "grpc-server",
+  "version": "0.0.1",
+  "description": "Express server with grpc connection , websockets, socket streams and pub/sub(redis)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harry-urek",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.2",
+    "@grpc/proto-loader": "^0.7.13",
+    "axios": "^1.8.4",
+    "connect-redis": "^8.0.2",
+    "csurf": "^1.10.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.1.0",
+    "passport": "^0.7.0",
+    "passport-oauth2": "^1.8.0",
+    "redis": "^4.7.0",
+    "winston": "^3.17.0",
+    "ws": "^8.18.1"
+  }
+}
